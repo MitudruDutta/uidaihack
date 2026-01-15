@@ -5,9 +5,9 @@ print("=" * 70)
 print("DEEP BRUTAL AUDIT - ANALYTICS DATASETS")
 print("=" * 70)
 
-enrol = pd.read_csv('data/analytics/enrolment_agg.csv')
-bio = pd.read_csv('data/analytics/biometric_agg.csv')
-demo = pd.read_csv('data/analytics/demographic_agg.csv')
+enrol = pd.read_csv('../data/analytics/enrolment_agg.csv')
+bio = pd.read_csv('../data/analytics/biometric_agg.csv')
+demo = pd.read_csv('../data/analytics/demographic_agg.csv')
 
 enrol['date'] = pd.to_datetime(enrol['date'])
 bio['date'] = pd.to_datetime(bio['date'])
